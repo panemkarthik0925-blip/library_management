@@ -1,0 +1,36 @@
+.nabar{
+    height: 10vh;
+    width: 100%;
+    background: rgb(136, 136, 236);
+    display: flex; 
+    & .log{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: yellow; */
+        h3{
+            color: white;
+            font-size: 4vh;
+        }
+    }
+    & .links{
+        width: 70%;
+        height: 100%;
+        & ul{
+            height: 100%;
+             display: flex;
+             justify-content: space-evenly;
+             align-items: center;
+             list-style: none;
+             & li{
+                & a{
+                    text-decoration: none;
+                    color: white;
+                }
+             }
+        }
+
+    }
+}

@@ -1,0 +1,27 @@
+.readbooks{
+    border: 10px solid rgb(23, 119, 146);
+    background-color: wheat;
+   
+    & h4{
+        display: inline;
+        color: rgb(1, 2, 2);
+    }
+    & .image{
+        & img{
+            height: 20vh;
+            width: 15vw;
+            display: block;
+            margin:  3vh auto;
+        }
+    }
+    & .title{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: large;
+        text-align: center;
+        margin-bottom: 3vh;
+    }
+    & .long{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}

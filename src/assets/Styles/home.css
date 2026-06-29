@@ -1,0 +1,55 @@
+.home{
+    height: 90vh;
+    width: 100%;
+    background:  radial-gradient(ellipse,rgb(229, 91, 134) ,rgb(169, 203, 153) ,rgb(114, 156, 246));;
+
+
+    & .bok{
+        & h3{
+            font-size: 10vh;
+            color: rgb(235, 237, 240);
+            text-align: center;
+            text-decoration: underline;
+        }
+        & h3:hover{
+            color: rgb(192, 145, 235);
+            text-shadow: 2px 2px rgb(247, 247, 241);
+        }
+
+    }
+
+    & .books{
+                  height: 43vh;
+                  width: 70vh;
+                  border: solid 1px white;
+                  margin: 16vh auto;
+                  border-radius: 10px;
+                   background: radial-gradient(rgb(239, 148, 148)50%,rgb(240, 125, 213));
+        
+        & h3  {
+            text-align: center;
+            font-size: 3vh;
+            color: rgb(89, 132, 192);
+            margin: 2vh auto;
+        }
+        & h3:hover{
+            color: rgb(224, 252, 169);
+             text-shadow: 2px 0px rgb(247, 247, 241);
+            }
+        & h1{
+                  text-align: center;
+                  font-size: 2.7vh;
+                  margin: 5vh ;
+        }
+        & h1:hover{
+            color: rgb(163, 28, 241);
+            font-size: 3vh;
+        }
+        & h2{
+            text-align: center;
+            color: whitesmoke;
+        }
+    
+    }           
+}
+

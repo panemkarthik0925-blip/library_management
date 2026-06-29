@@ -1,0 +1,31 @@
+& table{
+            border: none;
+            height: auto;
+            width: 100%;
+            & thead{
+                & tr{
+                    background-image:linear-gradient(to bottom ,rgb(137, 139, 174),rgb(178, 234, 216));
+                    & th{
+                        color: rgb(87, 12, 12);
+                        font-family: sans-serif;
+                        font-weight: bolder;
+                        
+                    }
+                }
+            }
+            & tbody{
+                & td{
+                    text-align: center;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+                    ;
+                    font-weight: bold;
+                    background-image:linear-gradient(to bottom,wheat,skyblue);
+                    background-repeat: repeat;                    
+                    & img{
+                            height:10vh;
+                            width: 8vh;
+                        }
+
+                }
+            }
+        }

@@ -1,0 +1,64 @@
+.landingpage{
+    height: 100vh;
+    width: 100%;
+    background: rgb(232, 187, 98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  radial-gradient(circle,rgb(196, 108, 46) ,rgb(164, 199, 211) 80%);
+
+    & .container{
+        border: solid 0px rgb(213, 45, 45);
+        height:50vh ;
+        width:30% ;
+        border-radius: 3vh;
+        background:linear-gradient(to bottom right,  rgb(96, 96, 233) ,rgb(207, 59, 207));
+       & h1{
+                text-align: center;
+                text-decoration: underline;
+                color: whitesmoke;
+                margin: 3vh;
+       }
+        & form{
+            
+            }
+            /* & input,button{
+                display: block;
+                margin: 2vh auto;
+                box-shadow: 1vh 1vh 3vh black;
+                border: solid 2px black;
+                height: 6vh;
+                width: 30vh; */
+            }
+            & input{
+                display: block;
+                margin: 8vh auto;
+                box-shadow: 0vh 0vh  3vh black;
+                text-align:center;
+                font-style: italic;
+                gap: 1vh;
+                height: 5vh;
+                width: 30vh;
+                background-color: whitesmoke;
+                border: none;
+                
+
+                
+
+            }
+            & button{
+                margin:  auto;
+                display: block;
+                height: 5vh;
+                width: 10vw;
+                border-radius: 20px;
+                border: solid 0px black;
+                font-size: 3vh;
+                font-style: italic;
+                background: radial-gradient( rgb(220, 223, 224)50%,rgb(201, 196, 196));
+                
+
+            }
+        }
+    }
+}
